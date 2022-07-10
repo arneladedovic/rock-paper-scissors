@@ -43,3 +43,12 @@ Rock Paper Scissor's site is set up to be easy and quick to play.
 * Add more games to the page.
 
 * Add images so the player can see what option the computer choose. 
+
+## Technologies Used
+
+* Balsamiq - used to create the wireframes.
+* GitHub - used to deploy the website.
+* GitPod - used to edit the website.
+* HTML5 - provides structure and content for the website.
+* CSS - provides the styling.
+* Javascript - provides the interactivity.
