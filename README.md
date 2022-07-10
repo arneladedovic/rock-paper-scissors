@@ -35,3 +35,11 @@ Rock Paper Scissor's site is set up to be easy and quick to play.
     * When the game ends by winning or losing, you can press the restart button to play again.
 
 ![Restart game](assets/images/readme.img/restart%20-%20pp2.png)
+
+### Features Left To Implement
+
+* Add an advanced Rock Paper Scissors game, to offer more options to choose.
+
+* Add more games to the page.
+
+* Add images so the player can see what option the computer choose. 
