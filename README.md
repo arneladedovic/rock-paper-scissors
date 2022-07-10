@@ -57,6 +57,10 @@ Rock Paper Scissor's site is set up to be easy and quick to play.
 
 * Rock Paper Scissors is designed to be simple to use. It has a main page and that is where the game takes place.
 
+## Wireframes
+
+![Wireframes](assets/images/readme.img/balsamiq%20-%20pp2.png)
+
 ## Design
 
 * ### Color Scheme
@@ -98,3 +102,56 @@ Rock Paper Scissor's site is set up to be easy and quick to play.
 * Rock Paper Scissor was also tested trough Google Lighthouse. See images below:
 
 ![Lighthouse test](assets/images/readme.img/lighthouse.png)
+
+## Deployment
+
+### To deploy the project:
+* The site was deployed to GitHub Pages. The steps to deploy are as follows:
+    * In the GitHub repository, go to the Settings tab
+    * Navigate to the Pages on the left side
+    * Under Source, select the branch to 'main', then click save
+    * Once the 'main' branch has been selected, the page will automatically be refreshed with a detailed ribbon display to indicate the successful deployment!
+
+The live link can be found here: https://arneladedovic.github.io/rock-paper-scissors/
+
+![Deploy Project](assets/images/readme.img/deployment%20-%20pp2.png)
+
+### To fork the repository on GitHub:
+
+* A copy of the repository on GitHub can be made by forking the GitHub account. The steps to fork the repository are as follows: 
+    * Log in to GitHub and locate the repository: 
+    * On the right side of the page is a button called 'Fork'. 
+    * Click on the button to create a copy of the original repository
+
+![Fork Repository](assets/images/readme.img/fork%20-%20pp2.png)
+
+### To create a clone of the project:
+
+* The steps to clone the project are as follows:
+    * Under the repository, click on the code tab
+    * In the 'Clone with HTTPS'-section, click on the clipboard icon to cope the given URL
+    * In your IDE of choice - open Git Bash
+    * Change the directory to the location where you want the cloned directory to be made
+    * Type 'Git Clone' and paste the URL copy
+    * Press 'enter' and the clone will be created
+
+![Clone Project](assets/images/readme.img/clone%20-%20pp2.png)
+
+## Credits
+
+* ### Inspiration 
+    * Inspiration came from a great developer and youtuber: [Youtube](https://www.youtube.com/watch?v=Iwvf9iBP04M)
+    * Inspiration came from a great developer and blogger: [Blogg](https://www.geeksforgeeks.org/)
+
+* ### Content
+    * The font came from: [Google Fonts](https://fonts.google.com/)
+    * The color palette was created on: [Adobe Color](https://color.adobe.com/sv/create/color-wheel) 
+    * The icons came from: [Font Awesome](https://fontawesome.com/)
+
+* ### Media
+    * The Button-photos used on the page came from: [Clipartmax](https://www.clipartmax.com/so/rock-paper-scissors-clipart/)
+
+## Acknowledgements
+Rock Paper Scissor was completed as a Porfolio 3 Project for the Full Stack Software Developer education at the [Code Institute](https://codeinstitute.net/). I would like to thank the Slack Community, Code Institute and the great Youtube and Google for the inspiration, help and support during this project. 
+
+### **Arnela Dedovic, 2022.**
