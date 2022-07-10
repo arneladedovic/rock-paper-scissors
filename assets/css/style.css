@@ -34,7 +34,7 @@ header > h2 {
 /* Game area */
 .game-area {
   height: 85vh;
-  width: 99wh;
+  width: 99vw;
   color: #6B787C;
   align-items: center;
   flex-direction: column;
@@ -115,3 +115,36 @@ img {
   margin-top: 20px;
   font-size: 1.2rem;
 }
+
+/*  Media queries */
+
+@media screen and (min-width: 1024px) { 
+
+.header {
+  font-size: 40px;
+}
+
+.score {
+  font-size: 30px;
+  }
+
+.p-count, .c-count {
+  font-size: 30px;
+}
+
+.rock, .paper, .scissor {
+  height: 200px;
+  width: 152px;
+  padding: 37px; 
+}
+
+.move {
+  font-size: 25px;
+}
+
+.movesLeft {
+  font-size: 20px;
+}
+
+}
+
