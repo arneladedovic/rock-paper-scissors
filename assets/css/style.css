@@ -121,21 +121,26 @@ img {
 @media screen and (min-width: 1024px) { 
 
 .header {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .score {
-  font-size: 30px;
+  font-size: 28px;
   }
 
 .p-count, .c-count {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .rock, .paper, .scissor {
   height: 200px;
   width: 152px;
   padding: 37px; 
+  font-size: 15px;
+}
+
+img {
+  width: 80px;
 }
 
 .move {
