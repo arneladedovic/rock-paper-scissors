@@ -108,7 +108,14 @@ const playGame = () => {
           window.location.reload();
       });
   };
+
+// Calling playGame function
+  playGame();
+
 };
+
+// Calling game function
+game();
   
 
 
