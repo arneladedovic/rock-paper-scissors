@@ -56,3 +56,20 @@ Rock Paper Scissor's site is set up to be easy and quick to play.
 ## Site Structure
 
 * Rock Paper Scissors is designed to be simple to use. It has a main page and that is where the game takes place.
+
+## Design
+
+* ### Color Scheme
+    
+   * The colour scheme chosen was based on a calming but playful feeling that entices the player to continue playing. 
+   * The main colors were three pieces that went in the white, blue and gray direction. And then green, red and gray were used for the game results.
+
+![Colour Scheme - main colors](assets/images/readme.img/body-colors.png)
+![Colour Scheme - result colors](assets/images/readme.img/score-color.png)
+
+
+* ### Typography 
+
+    * The font chosen was 'Oswald 300' for the whole page.
+
+    * The chosen font gave the heading and the body a bold and visible text.
