@@ -24,9 +24,12 @@ const playGame = () => {
 
       const choiceNumber = Math.floor(Math.random()*3);
       const computerChoice = computerOptions[choiceNumber];
+
+// Function to see who wins
+        winner(this.innerText, computerChoice);
   });
 
-  // Function to see who wins
+
 
   // Function to end game efter 10moves
 
