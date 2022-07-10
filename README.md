@@ -52,3 +52,7 @@ Rock Paper Scissor's site is set up to be easy and quick to play.
 * HTML5 - provides structure and content for the website.
 * CSS - provides the styling.
 * Javascript - provides the interactivity.
+
+## Site Structure
+
+* Rock Paper Scissors is designed to be simple to use. It has a main page and that is where the game takes place.
