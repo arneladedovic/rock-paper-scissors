@@ -3,7 +3,6 @@ const game = () => {
   let playerScore = 0;
   let computerScore = 0;
   let moves = 0;
-}
 
 // Function to play game 
 const playGame = () => {
@@ -12,7 +11,7 @@ const playGame = () => {
   const scissorButton = document.querySelector('.scissor');
   const playerOptions = [rockButton, paperButton, scissorButton];
   const computerOptions = ['rock', 'paper', 'scissor'];
-}
+
 
 // Function to start play
   playerOptions.forEach(option => {
@@ -20,20 +19,64 @@ const playGame = () => {
 
     const movesLeft = document.querySelector('.movesLeft'); moves++;
     movesLeft.innerText = `Moves Left: ${10-moves}`;
-    })
-
+    
       const choiceNumber = Math.floor(Math.random()*3);
       const computerChoice = computerOptions[choiceNumber];
 
 // Function to see who wins
         winner(this.innerText, computerChoice);
+
+// Function to end game efter 10moves
+        if(moves === 10) {
+          gameOver(playerOptions, movesLeft);
+        }
+    });
   });
+};
 
+// Function to decide winner
+  const winner = (player, computer) => {
+    const result = document.querySelector('.result');
+    const playerScoreBoard = document.querySelector('.p-count');
+    const computerScoreBoard = document.querySelector('.c-count');
+      
+      if (player === computer) {
+        result.textContent = 'Tie';
+      } else if (player === 'rock') {
+        if (computer === 'paper') {
+            result.textContent = 'Computer Win!';
+            computerScore++;
+            computerScoreBoard.textContent = computerScore;
+        } else {
+            result.textContent = 'Player win!';
+            playerScore++;
+            playerScoreBoard.textContent = playerScore;
+        }
+      } else if (player === 'scissors') {
+        if (computer === 'rock') {
+            result.textContent = 'Computer Win!'
+            computerScore++;
+            computerScoreBoard.textContent = computerScore;
+        } else {
+            result.textContent = 'Player Win!';
+            playerScore++;
+            playerScoreBoard.textContent = playerScore;
+        }
+      } else if (player === 'paper') {
+        if (computer === 'scissors') {
+            result.textContent = 'Computer Win!';
+            computerScore++;
+            computerScoreBoard.textContent = computerScore;
+        } else {
+            result.textContent = 'Player Win!';
+            playerScore++;
+            playerScoreBoard.textContent = playerScore;
+        }
+    }
+}; 
 
-
-  // Function to end game efter 10moves
-
-  // Function to decide winner
+};
+  
 
   // Function to run when game over
 
