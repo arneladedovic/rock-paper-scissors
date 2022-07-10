@@ -73,3 +73,28 @@ Rock Paper Scissor's site is set up to be easy and quick to play.
     * The font chosen was 'Oswald 300' for the whole page.
 
     * The chosen font gave the heading and the body a bold and visible text.
+
+## Testing
+
+* Rock Paper Scissor has been tested for validation. The codes has been run through the WC3 HTML Validator, WC3 CSS Validator, JShint. The tests images below are from HTML-Validator and CSS-Validator:
+
+    ![Main Page - Test: HTML](assets/images/readme.img/html%20validator%20-%20pp2.png)
+    ![Main Page - Test: CSS](assets/images/readme.img/css%20validator%20-%20pp2.png)
+
+* The JSHint validator results showed that there were two semi-colons missing. This was easily fixed by adding them and now the validator is showing that there is no errors.
+
+### Responsivness Test.
+
+* The responsive design has been testet with <a href= "https://developer.chrome.com/docs/devtools/">Google Chrome DevTools</a> and passes all the screen sizes.
+
+### Known Bugs
+
+* There were two error messages due to a style link in the head section, but when you moved it to its proper location, both error messages disappeared. So problem is solved and there are no bugs left.
+
+![Error message - Test: HTML](assets/images//readme.img/error%201%20-%20pp2.png)
+![Error message - Test: HTML](assets/images/readme.img/error%202%20-%20pp2.png)
+
+### LightHouse Test
+* Rock Paper Scissor was also tested trough Google Lighthouse. See images below:
+
+![Lighthouse test](assets/images/readme.img/lighthouse.png)
