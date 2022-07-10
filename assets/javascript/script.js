@@ -81,11 +81,11 @@ const winner = (player, computer) => {
   const gameOver = (playerOptions, movesLeft) => {
 
     const chooseMove = document.querySelector('.move');
-    const result = document.querySelector('.result')
+    const result = document.querySelector('.result');
     const reloadButton = document.querySelector('.reload');
      
       playerOptions.forEach(option => {
-        option.style.display = 'none'
+        option.style.display = 'none';
       });
 
       chooseMove.innerText = 'Game over!';
